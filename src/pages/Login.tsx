@@ -1,3 +1,5 @@
+import Button from '../components/button'
+
 export function Login() {
   return (
     <section className="bg-white min-h-screen">
@@ -30,12 +32,7 @@ export function Login() {
               />
             </div>
 
-            <button
-              type="submit"
-              className="block w-full rounded-lg bg-blue-600 px-5 py-3 text-sm font-medium text-white"
-            >
-              Entrar
-            </button>
+            <Button texto="Entrar" />
 
           </form>
         </div>
