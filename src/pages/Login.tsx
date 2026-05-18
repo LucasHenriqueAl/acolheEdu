@@ -1,4 +1,4 @@
-import Button from '../components/buttonseta'
+import Button from '../components/button_seta'
 
 export function Login() {
   return (
