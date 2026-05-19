@@ -1,6 +1,10 @@
 import Button from '../components/button_seta'
+import { useNavigate } from 'react-router-dom'
 
 export function Login() {
+  
+  const navigate = useNavigate()
+
   return (
     <section className="bg-white min-h-screen ">
       <div className="mx-auto max-w-screen-xl px-4 py-16">
@@ -33,7 +37,10 @@ export function Login() {
             </div>
 
              <div className="flex justify-center">
-                <Button texto="Entrar" />
+                <Button 
+                  texto="Entrar" 
+                  onClick={() => navigate('/inicio')}
+                />
              </div>
 
              <p className="text-center text-sm text-gray-600">
