@@ -10,6 +10,7 @@ import {
 import App from './App.tsx'
 import { TelaInicial } from './pages/TelaInicial.tsx'
 import { Contato } from './pages/Contato.tsx'
+import { SobreNos } from './pages/SobreNos.tsx'
 
 import './index.css'
 
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<App />} />
         <Route path="/inicio" element={<TelaInicial />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/sobrenos" element={<SobreNos />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

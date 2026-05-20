@@ -30,9 +30,13 @@ export default function MenuNavegacao() {
 
         <nav className="flex flex-wrap items-center justify-center text-base md:ml-6">
 
-          <a className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700">
+          <button 
+            type="button"
+            className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700"
+            onClick={() => navigate('/sobrenos')}
+            >
             Sobre nós
-          </a>
+          </button>
 
           <a className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700">
             Ajuda
