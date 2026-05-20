@@ -62,6 +62,15 @@ export default function MenuVertical() {
           </a>
         </li>
 
+        <li>
+          <a
+            href="#"
+            className="block rounded-lg px-4 py-3 text-sm font-medium text-gray-600 hover:bg-purple-50 hover:text-purple-700"
+          >
+            Apoio psicológico
+          </a>
+        </li>
+
       </ul>
     </aside>
   )
