@@ -1,4 +1,8 @@
+import { useNavigate } from 'react-router-dom'
+
 export default function MenuNavegacao() {
+  const navigate = useNavigate()
+
   return (
     <header className="border-b border-gray-200 bg-white shadow-sm">
       <div className="container mx-auto flex flex-col items-center p-5 md:flex-row">
@@ -38,7 +42,10 @@ export default function MenuNavegacao() {
             Contato
           </a>
 
-          <a className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700">
+          <a
+            onClick={() => navigate('/contato')} 
+            className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700"
+          >
             Configurações
           </a>
 

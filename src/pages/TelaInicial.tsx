@@ -20,7 +20,7 @@ export function TelaInicial() {
               AcolheEdu
             </h1>
 
-            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-4xl text-2xl font-medium leading-relaxed text-gray-700">
               Uma plataforma acolhedora desenvolvida para aproximar estudantes
               da psicóloga escolar, promovendo apoio emocional, escuta ativa,
               bem-estar e segurança dentro do ambiente escolar.
