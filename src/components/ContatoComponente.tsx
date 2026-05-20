@@ -104,9 +104,9 @@ export default function ContatoComponente() {
               </a>
 
               <p className="my-5 leading-normal">
-                Escola AcolheEdu
+                CETI Maria da Conceição Salomé
                 <br />
-                Fortaleza - CE
+                Teresina - PI
               </p>
 
               {/* Redes sociais */}
