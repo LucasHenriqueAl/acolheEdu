@@ -38,16 +38,20 @@ export default function MenuNavegacao() {
             Ajuda
           </a>
 
-          <a className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700">
+          <button
+            type="button"
+            onClick={() => navigate('/contato')}
+            className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700">
             Contato
-          </a>
+          </button>
 
-          <a
-            onClick={() => navigate('/contato')} 
+          <button
+            type="button"
+            onClick={() => navigate('/inicio')} 
             className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700"
           >
             Configurações
-          </a>
+          </button>
 
         </nav>
 
