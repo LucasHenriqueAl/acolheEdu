@@ -55,7 +55,7 @@ export default function MenuNavegacao() {
 
           <button
             type="button"
-            onClick={() => navigate('/inicio')} 
+            onClick={() => navigate('/configuracoes')} 
             className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700"
           >
             Configurações

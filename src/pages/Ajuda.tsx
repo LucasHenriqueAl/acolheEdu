@@ -1,6 +1,5 @@
 import MenuVertical from '../components/MenuVertical'
 import MenuNavegacao from '../components/MenuNavegacao'
-import CardsFuncionalidade from '../components/CardFuncionalidade'
 import MensagemApoio from '../components/MensagemApoio'
 
 export function Ajuda() {
@@ -120,9 +119,6 @@ export function Ajuda() {
             </div>
 
           </section>
-
-          {/* Cards */}
-          <CardsFuncionalidade />
 
          <MensagemApoio />
 
