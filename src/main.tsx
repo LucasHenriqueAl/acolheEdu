@@ -12,7 +12,7 @@ import { TelaInicial } from './pages/TelaInicial.tsx'
 import { Contato } from './pages/Contato.tsx'
 import { SobreNos } from './pages/SobreNos.tsx'
 import {Ajuda} from './pages/Ajuda.tsx'
-import {Configuracoes} from './pages/Configurações.tsx'
+import {Configuracoes} from './pages/Configuracoes.tsx'
 
 import './index.css'
 
