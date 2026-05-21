@@ -1,6 +1,7 @@
 import MenuVertical from '../components/MenuVertical'
 import MenuNavegacao from '../components/MenuNavegacao'
 import CardsFuncionalidade from '../components/CardFuncionalidade'
+import MensagemApoio from '../components/MensagemApoio'
 
 export function Ajuda() {
   return (
@@ -123,58 +124,7 @@ export function Ajuda() {
           {/* Cards */}
           <CardsFuncionalidade />
 
-          {/* Contatos de Emergência */}
-          <section className="mt-16 rounded-2xl bg-white p-8 shadow-sm">
-
-            <h2 className="mb-6 text-3xl font-bold text-purple-700">
-              Contatos de Emergência
-            </h2>
-
-            <div className="space-y-4 text-lg text-gray-700">
-
-              <div className="rounded-xl border border-purple-200 bg-purple-50 p-4">
-                <h3 className="font-bold text-purple-700">
-                  CVV - Centro de Valorização da Vida
-                </h3>
-
-                <p>
-                  Ligue gratuitamente para:
-                  <span className="ml-2 font-bold text-purple-800">
-                    188
-                  </span>
-                </p>
-              </div>
-
-              <div className="rounded-xl border border-purple-200 bg-purple-50 p-4">
-                <h3 className="font-bold text-purple-700">
-                  Coordenação Escolar
-                </h3>
-
-                <p>
-                  Telefone:
-                  <span className="ml-2 font-bold text-purple-800">
-                    (00) 00000-0000
-                  </span>
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-          {/* Mensagem final */}
-          <section className="mt-16 text-center">
-
-            <h2 className="mb-4 text-3xl font-extrabold text-purple-700">
-              Você não está sozinho 💜
-            </h2>
-
-            <p className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-700">
-              Pedir ajuda é um ato de coragem. O AcolheEdu existe para
-              acolher, ouvir e apoiar você em todos os momentos.
-            </p>
-
-          </section>
+         <MensagemApoio />
 
         </main>
 

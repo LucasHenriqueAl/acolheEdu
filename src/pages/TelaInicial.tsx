@@ -1,6 +1,7 @@
 import MenuVertical from '../components/MenuVertical'
 import MenuNavegacao from '../components/MenuNavegacao'
 import CardsFuncionalidade from '../components/CardFuncionalidade'
+import MensagemApoio from '../components/MensagemApoio'
 
 export function TelaInicial() {
   return (
@@ -31,6 +32,8 @@ export function TelaInicial() {
 
           {/* Cards */}
           <CardsFuncionalidade />
+
+          <MensagemApoio />
 
         </main>
 
