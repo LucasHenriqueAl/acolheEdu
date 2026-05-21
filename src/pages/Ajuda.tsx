@@ -28,6 +28,52 @@ export function Ajuda() {
 
           </section>
 
+          {/* FAQ */}
+          <section className="mb-16 rounded-2xl bg-white p-8 shadow-sm">
+
+            <h2 className="mb-6 text-3xl font-bold text-purple-700">
+              Perguntas Frequentes
+            </h2>
+
+            <div className="space-y-6">
+
+              <div>
+                <h3 className="text-xl font-bold text-purple-600">
+                  O AcolheEdu é gratuito?
+                </h3>
+
+                <p className="mt-2 text-gray-700">
+                  Sim. A plataforma foi criada para apoiar estudantes
+                  de forma totalmente gratuita.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-bold text-purple-600">
+                  Minhas informações ficam seguras?
+                </h3>
+
+                <p className="mt-2 text-gray-700">
+                  Sim. O sistema busca garantir privacidade e segurança
+                  durante o uso das funcionalidades.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-bold text-purple-600">
+                  Posso pedir ajuda emocional?
+                </h3>
+
+                <p className="mt-2 text-gray-700">
+                  Claro. Você pode utilizar os canais de conversa,
+                  apoio psicológico e denúncias sempre que precisar.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
           {/* Explicação */}
           <section className="mb-16 rounded-2xl bg-white p-8 shadow-sm">
 
@@ -74,8 +120,61 @@ export function Ajuda() {
 
           </section>
 
-          {/* Cards reutilizados */}
+          {/* Cards */}
           <CardsFuncionalidade />
+
+          {/* Contatos de Emergência */}
+          <section className="mt-16 rounded-2xl bg-white p-8 shadow-sm">
+
+            <h2 className="mb-6 text-3xl font-bold text-purple-700">
+              Contatos de Emergência
+            </h2>
+
+            <div className="space-y-4 text-lg text-gray-700">
+
+              <div className="rounded-xl border border-purple-200 bg-purple-50 p-4">
+                <h3 className="font-bold text-purple-700">
+                  CVV - Centro de Valorização da Vida
+                </h3>
+
+                <p>
+                  Ligue gratuitamente para:
+                  <span className="ml-2 font-bold text-purple-800">
+                    188
+                  </span>
+                </p>
+              </div>
+
+              <div className="rounded-xl border border-purple-200 bg-purple-50 p-4">
+                <h3 className="font-bold text-purple-700">
+                  Coordenação Escolar
+                </h3>
+
+                <p>
+                  Telefone:
+                  <span className="ml-2 font-bold text-purple-800">
+                    (00) 00000-0000
+                  </span>
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+          {/* Mensagem final */}
+          <section className="mt-16 text-center">
+
+            <h2 className="mb-4 text-3xl font-extrabold text-purple-700">
+              Você não está sozinho 💜
+            </h2>
+
+            <p className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-700">
+              Pedir ajuda é um ato de coragem. O AcolheEdu existe para
+              acolher, ouvir e apoiar você em todos os momentos.
+            </p>
+
+          </section>
 
         </main>
 
