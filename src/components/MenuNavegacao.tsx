@@ -7,7 +7,10 @@ export default function MenuNavegacao() {
     <header className="border-b border-gray-200 bg-white shadow-sm">
       <div className="container mx-auto flex flex-col items-center p-5 md:flex-row">
 
-        <a className="mb-4 flex items-center font-medium text-purple-700 md:mb-0">
+        <button 
+          type="button"
+          onClick={() => navigate('/inicio')}
+          className="mb-4 flex items-center font-medium text-purple-700 md:mb-0">
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +29,7 @@ export default function MenuNavegacao() {
             AcolheEdu
           </span>
 
-        </a>
+        </button>
 
         <nav className="flex flex-wrap items-center justify-center text-base md:ml-6">
 
