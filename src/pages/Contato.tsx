@@ -1,6 +1,6 @@
-import MenuVertical from '../components/MenuVertical'
-import MenuNavegacao from '../components/MenuNavegacao'
-import ContatoComponente from '../components/ContatoComponente'
+import MenuVertical from '../components/layout/MenuVertical'
+import MenuNavegacao from '../components/layout/MenuNavegacao'
+import ContatoComponente from '../components/Sections/ContatoComponente'
 
 export function Contato() {
   return (

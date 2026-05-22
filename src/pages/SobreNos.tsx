@@ -1,6 +1,6 @@
-import MenuVertical from '../components/MenuVertical'
-import MenuNavegacao from '../components/MenuNavegacao'
-import SobreNosComponente from '../components/SobreNosComponente'
+import MenuVertical from '../components/layout/MenuVertical'
+import MenuNavegacao from '../components/layout/MenuNavegacao'
+import SobreNosComponente from '../components/Sections/SobreNosComponente'
 
 export function SobreNos() {
   return (

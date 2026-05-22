@@ -1,4 +1,4 @@
-import Button from '../components/button_seta'
+import Button from '../components/UI/button_seta'
 import { useNavigate } from 'react-router-dom'
 
 export function Login() {

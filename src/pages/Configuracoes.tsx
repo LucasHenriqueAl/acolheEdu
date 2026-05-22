@@ -1,6 +1,6 @@
-import MenuVertical from '../components/MenuVertical'
-import MenuNavegacao from '../components/MenuNavegacao'
-import Toggle from '../components/Toggles'
+import MenuVertical from '../components/layout/MenuVertical'
+import MenuNavegacao from '../components/layout/MenuNavegacao'
+import Toggle from '../components/UI/Toggles'
 
 export function Configuracoes() {
   return (

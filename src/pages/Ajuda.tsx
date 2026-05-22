@@ -1,6 +1,6 @@
-import MenuVertical from '../components/MenuVertical'
-import MenuNavegacao from '../components/MenuNavegacao'
-import MensagemApoio from '../components/MensagemApoio'
+import MenuVertical from '../components/layout/MenuVertical'
+import MenuNavegacao from '../components/layout/MenuNavegacao'
+import MensagemApoio from '../components/Sections/MensagemApoio'
 
 export function Ajuda() {
   return (
