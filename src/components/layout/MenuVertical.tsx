@@ -1,4 +1,9 @@
+import { useNavigate } from "react-router-dom";
+
 export default function MenuVertical() {
+
+  const navigate = useNavigate()
+
   return (
     <aside className="w-64 min-h-screen border-r border-gray-200 bg-white p-4">
 
@@ -18,12 +23,12 @@ export default function MenuVertical() {
         </li>
 
         <li>
-          <a
-            href="#"
+          <button
+            onClick={() => navigate('/diario_emocional')}
             className="block rounded-lg px-4 py-3 text-sm font-medium text-gray-600 hover:bg-purple-50 hover:text-purple-700"
           >
             Diário Emocional
-          </a>
+          </button>
         </li>
 
         <li>
