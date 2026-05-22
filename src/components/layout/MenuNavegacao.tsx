@@ -36,7 +36,7 @@ export default function MenuNavegacao() {
           <button 
             type="button"
             className="mr-5 cursor-pointer text-gray-600 hover:text-purple-700"
-            onClick={() => navigate('/sobrenos')}
+            onClick={() => navigate('/sobre_nos')}
             >
             Sobre nós
           </button>
