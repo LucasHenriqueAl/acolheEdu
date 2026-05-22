@@ -13,6 +13,7 @@ import { Contato } from './pages/Contato.tsx'
 import { SobreNos } from './pages/SobreNos.tsx'
 import {Ajuda} from './pages/Ajuda.tsx'
 import {Configuracoes} from './pages/Configuracoes.tsx'
+import { DiarioEmocional } from './pages/DiarioEmocional.tsx'
 
 import './index.css'
 
@@ -26,6 +27,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/sobrenos" element={<SobreNos />} />
         <Route path="/ajuda" element={<Ajuda />} />
         <Route path="/configuracoes" element={<Configuracoes />} />
+        <Route path="/diario_emocional" element={<DiarioEmocional/> } />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
