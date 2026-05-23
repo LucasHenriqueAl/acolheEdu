@@ -1,7 +1,10 @@
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { Bell } from 'lucide-react'
 
 export default function MenuNavegacao() {
   const navigate = useNavigate()
+  const [abrirNotificacoes, setAbrirNotificacoes] = useState(false)
 
   return (
     <header className="border-b border-gray-200 bg-white shadow-sm">
@@ -66,6 +69,44 @@ export default function MenuNavegacao() {
 
         </nav>
 
+        <div className="relative mt-4 flex items-center gap-4 md:mt-0 md:ml-auto">
+
+        {/* Notificações */}
+        <button
+          type="button"
+          onClick={() => setAbrirNotificacoes(!abrirNotificacoes)}
+          className="relative rounded-full p-2 text-gray-600 transition hover:bg-purple-50 hover:text-purple-700"
+        >
+          <Bell size={24} />
+
+          <span className="absolute right-2 top-2 h-2 w-2 rounded-full bg-red-500"></span>
+        </button>
+
+        {/* Caixa de notificações */}
+        {abrirNotificacoes && (
+          <div className="absolute right-0 top-14 z-50 w-80 rounded-xl border border-gray-200 bg-white p-4 shadow-lg">
+
+            <h3 className="mb-3 font-bold text-purple-700">
+              Notificações
+            </h3>
+
+            <div className="space-y-2 text-sm text-gray-600">
+
+              <div className="rounded-lg bg-purple-50 p-3">
+                Bem-vindo ao AcolheEdu! 💜
+              </div>
+
+              <div className="rounded-lg bg-purple-50 p-3">
+                Lembre-se de registrar suas emoções no Diário Emocional.
+              </div>
+
+            </div>
+
+          </div>
+        )}
+
+ 
+
         <button
           className="mt-4 inline-flex items-center rounded-lg bg-purple-600 px-4 py-2 text-white hover:bg-purple-700 md:mt-0 md:ml-auto"
         >
@@ -84,6 +125,8 @@ export default function MenuNavegacao() {
           </svg>
 
         </button>
+
+        </div>
 
       </div>
     </header>
