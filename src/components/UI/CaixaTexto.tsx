@@ -25,7 +25,7 @@ export default function CaixaTexto({
           <textarea
             id="notes"
             placeholder={placeholder}
-            className="w-full resize-none border-none focus:ring-0 sm:text-sm"
+            className="w-full resize-none border-0 outline-none focus:outline-none focus:ring-0 sm:text-sm"
             rows={4}
           />
 
