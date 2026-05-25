@@ -14,6 +14,7 @@ import { SobreNos } from './pages/SobreNos.tsx'
 import {Ajuda} from './pages/Ajuda.tsx'
 import {Configuracoes} from './pages/Configuracoes.tsx'
 import { DiarioEmocional } from './pages/DiarioEmocional.tsx'
+import { ApoioPsicologico } from './pages/ApoioPsicologico.tsx'
 
 import './index.css'
 
@@ -28,6 +29,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/ajuda" element={<Ajuda />} />
         <Route path="/configuracoes" element={<Configuracoes />} />
         <Route path="/diario_emocional" element={<DiarioEmocional/> } />
+        <Route path="/apoio_psicologico" element={<ApoioPsicologico/>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
