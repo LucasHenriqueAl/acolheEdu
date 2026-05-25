@@ -25,7 +25,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<App />} />
         <Route path="/inicio" element={<TelaInicial />} />
         <Route path="/contato" element={<Contato />} />
-        <Route path="/sobrenos" element={<SobreNos />} />
+        <Route path="/sobre_nos" element={<SobreNos />} />
         <Route path="/ajuda" element={<Ajuda />} />
         <Route path="/configuracoes" element={<Configuracoes />} />
         <Route path="/diario_emocional" element={<DiarioEmocional/> } />
