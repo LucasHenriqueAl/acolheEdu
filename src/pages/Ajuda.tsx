@@ -1,6 +1,7 @@
 import MenuVertical from '../components/layout/MenuVertical'
 import MenuNavegacao from '../components/layout/MenuNavegacao'
 import MensagemApoio from '../components/Sections/MensagemApoio'
+import Footer from '../components/layout/Footer'
 
 export function Ajuda() {
   return (
@@ -125,6 +126,7 @@ export function Ajuda() {
         </main>
 
       </div>
+      <Footer />
     </>
   )
 }

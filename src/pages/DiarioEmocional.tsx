@@ -1,6 +1,7 @@
 import MenuVertical from '../components/layout/MenuVertical'
 import MenuNavegacao from '../components/layout/MenuNavegacao'
 import CaixaTexto from '../components/UI/CaixaTexto'
+import Footer from '../components/layout/Footer'
 
 export function DiarioEmocional() {
   return (
@@ -40,6 +41,7 @@ export function DiarioEmocional() {
         </main>
 
       </div>
+      <Footer />
     </>
   )
 }

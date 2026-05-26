@@ -1,6 +1,7 @@
 import MenuVertical from '../components/layout/MenuVertical'
 import MenuNavegacao from '../components/layout/MenuNavegacao'
 import ContatoComponente from '../components/Sections/ContatoComponente'
+import Footer from '../components/layout/Footer'
 
 export function Contato() {
   return (
@@ -16,6 +17,7 @@ export function Contato() {
         </main>
 
       </div>
+      <Footer />
     </>
   )
 }

@@ -1,6 +1,7 @@
 import MenuVertical from '../components/layout/MenuVertical'
 import MenuNavegacao from '../components/layout/MenuNavegacao'
 import Toggle from '../components/UI/Toggles'
+import Footer from '../components/layout/Footer'
 
 export function Configuracoes() {
   return (
@@ -102,6 +103,7 @@ export function Configuracoes() {
         </main>
 
       </div>
+      <Footer />
     </>
   )
 }

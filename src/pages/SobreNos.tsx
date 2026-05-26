@@ -1,6 +1,7 @@
 import MenuVertical from '../components/layout/MenuVertical'
 import MenuNavegacao from '../components/layout/MenuNavegacao'
 import SobreNosComponente from '../components/Sections/SobreNosComponente'
+import Footer from '../components/layout/Footer'
 
 export function SobreNos() {
   return (
@@ -16,6 +17,7 @@ export function SobreNos() {
         </main>
 
       </div>
+      <Footer />
     </>
   )
 }

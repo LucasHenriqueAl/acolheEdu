@@ -1,6 +1,7 @@
 import MenuNavegacao from '../components/layout/MenuNavegacao'
 import MenuVertical from '../components/layout/MenuVertical'
 import MensagemApoio from '../components/Sections/MensagemApoio'
+import Footer from '../components/layout/Footer'
 
 export function ApoioPsicologico() {
   return (
@@ -87,6 +88,7 @@ export function ApoioPsicologico() {
         </main>
 
       </div>
+      <Footer />
     </>
   )
 }

@@ -2,6 +2,7 @@ import MenuVertical from '../components/layout/MenuVertical'
 import MenuNavegacao from '../components/layout/MenuNavegacao'
 import CardsFuncionalidade from '../components/Cards/CardFuncionalidade'
 import MensagemApoio from '../components/Sections/MensagemApoio'
+import Footer from '../components/layout/Footer'
 
 export function TelaInicial() {
   return (
@@ -38,6 +39,8 @@ export function TelaInicial() {
         </main>
 
       </div>
+
+      <Footer />
     </>
   )
 }
