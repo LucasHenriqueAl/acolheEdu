@@ -64,6 +64,15 @@ export default function MenuVertical() {
           </button>
         </li>
 
+        <li>
+          <button
+            onClick={() => navigate('/bem_estar')}
+            className="block rounded-lg px-4 py-3 text-sm font-medium text-gray-600 hover:bg-purple-50 hover:text-purple-700"
+          >
+            Bem estar
+          </button>
+        </li>
+
       </ul>
     </aside>
   )

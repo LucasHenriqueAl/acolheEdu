@@ -2,8 +2,10 @@ import MenuNavegacao from '../components/layout/MenuNavegacao'
 import MenuVertical from '../components/layout/MenuVertical'
 import MensagemApoio from '../components/Sections/MensagemApoio'
 import Footer from '../components/layout/Footer'
+import { useNavigate } from 'react-router-dom'
 
 export function ApoioPsicologico() {
+  const navigate = useNavigate()
   return (
     <>
       <MenuNavegacao />
@@ -76,6 +78,8 @@ export function ApoioPsicologico() {
             </p>
 
             <button
+              type="button"
+              onClick={() => navigate('/agenda')}
               className="rounded-xl bg-purple-600 px-6 py-3 font-semibold text-white transition hover:bg-purple-700"
             >
               Solicitar Atendimento
