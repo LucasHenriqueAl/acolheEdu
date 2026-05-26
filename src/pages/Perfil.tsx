@@ -1,8 +1,12 @@
 import MenuVertical from '../components/layout/MenuVertical'
 import MenuNavegacao from '../components/layout/MenuNavegacao'
 import Footer from '../components/layout/Footer'
+import AvatarUsuario from '../components/UI/AvatarIcon'
+import { useUsuario } from '../Context/usuarioContext'
+
 
 export function Perfil() {
+  const { nomeUsuario, setNomeUsuario } = useUsuario()
   return (
     <>
       <MenuNavegacao />
@@ -28,11 +32,12 @@ export function Perfil() {
 
               <div className="flex flex-col items-center gap-4 md:flex-row">
 
-                <img
-                  src="https://placehold.co/120x120"
-                  alt="Foto de perfil"
-                  className="h-32 w-32 rounded-full border-4 border-purple-200 object-cover"
-                />
+                <div className="flex flex-col items-center gap-2">
+                    <AvatarUsuario nome={nomeUsuario} />
+                    <p className="font-semibold text-gray-700">
+                        {nomeUsuario}
+                    </p>
+                </div>
 
                 <div className="space-y-3">
 
@@ -69,6 +74,8 @@ export function Perfil() {
 
               <input
                 type="text"
+                value={nomeUsuario}
+                onChange={(e) => setNomeUsuario(e.target.value)}
                 placeholder="Digite seu novo nome"
                 className="w-full rounded-xl border border-gray-300 p-3 outline-none focus:border-purple-500"
               />

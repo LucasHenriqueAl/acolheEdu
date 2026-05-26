@@ -2,10 +2,12 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Bell } from 'lucide-react'
 import AvatarUsuario from '../UI/AvatarIcon'
+import { useUsuario } from '../../Context/usuarioContext'
 
 export default function MenuNavegacao() {
   const navigate = useNavigate()
   const [abrirNotificacoes, setAbrirNotificacoes] = useState(false)
+  const { nomeUsuario } = useUsuario()
 
   return (
     <header className="border-b border-gray-200 bg-white shadow-sm">
@@ -129,7 +131,7 @@ export default function MenuNavegacao() {
 
         </button>
 
-        <AvatarUsuario nome="Lucas" />
+        <AvatarUsuario nome={nomeUsuario} />
 
         </div>
 
