@@ -121,7 +121,8 @@ export function AgendaAtendimento() {
 
             {/* Botão */}
             <button
-              className="w-full rounded-xl bg-purple-600 py-3 font-semibold text-white transition hover:bg-purple-700"
+             onClick={() => alert( 'Seu atendimento foi agendado! Confira os detalhes do seu atendimento no e-mail.')}
+             className="w-full rounded-xl bg-purple-600 py-3 font-semibold text-white transition hover:bg-purple-700"
             >
               Confirmar Agendamento
             </button>
