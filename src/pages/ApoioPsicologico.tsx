@@ -20,7 +20,7 @@ export function ApoioPsicologico() {
               Apoio Psicológico
             </h1>
 
-            <p className="mx-auto max-w-4xl text-xl leading-relaxed text-gray-700">
+            <p className="mx-auto max-w-4xl text-2xl font-medium leading-relaxed text-gray-700">
               Este espaço foi criado para conectar estudantes ao
               atendimento psicológico escolar de forma segura,
               acolhedora e confidencial.
