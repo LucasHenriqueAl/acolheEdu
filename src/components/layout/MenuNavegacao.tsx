@@ -108,6 +108,8 @@ export default function MenuNavegacao() {
  
 
         <button
+          onClick={() => navigate('/perfil')} 
+          type="button"
           className="mt-4 inline-flex items-center rounded-lg bg-purple-600 px-4 py-2 text-white hover:bg-purple-700 md:mt-0 md:ml-auto"
         >
           Perfil

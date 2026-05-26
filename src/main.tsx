@@ -15,6 +15,7 @@ import {Ajuda} from './pages/Ajuda.tsx'
 import {Configuracoes} from './pages/Configuracoes.tsx'
 import { DiarioEmocional } from './pages/DiarioEmocional.tsx'
 import { ApoioPsicologico } from './pages/ApoioPsicologico.tsx'
+import { Perfil } from './pages/Perfil.tsx'
 
 import './index.css'
 
@@ -24,6 +25,7 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/inicio" element={<TelaInicial />} />
+        <Route path="/perfil" element={<Perfil />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/sobre_nos" element={<SobreNos />} />
         <Route path="/ajuda" element={<Ajuda />} />
