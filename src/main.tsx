@@ -17,22 +17,26 @@ import { DiarioEmocional } from './pages/DiarioEmocional.tsx'
 import { ApoioPsicologico } from './pages/ApoioPsicologico.tsx'
 import { Perfil } from './pages/Perfil.tsx'
 
+import { UsuarioProvider } from './Context/usuarioContext'
+
 import './index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/inicio" element={<TelaInicial />} />
-        <Route path="/perfil" element={<Perfil />} /> 
-        <Route path="/contato" element={<Contato />} />
-        <Route path="/sobre_nos" element={<SobreNos />} />
-        <Route path="/ajuda" element={<Ajuda />} />
-        <Route path="/configuracoes" element={<Configuracoes />} />
-        <Route path="/diario_emocional" element={<DiarioEmocional/> } />
-        <Route path="/apoio_psicologico" element={<ApoioPsicologico/>} />
-      </Routes>
-    </BrowserRouter>
+    <UsuarioProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/inicio" element={<TelaInicial />} />
+          <Route path="/perfil" element={<Perfil />} /> 
+          <Route path="/contato" element={<Contato />} />
+          <Route path="/sobre_nos" element={<SobreNos />} />
+          <Route path="/ajuda" element={<Ajuda />} />
+          <Route path="/configuracoes" element={<Configuracoes />} />
+          <Route path="/diario_emocional" element={<DiarioEmocional/> } />
+          <Route path="/apoio_psicologico" element={<ApoioPsicologico/>} />
+        </Routes>
+      </BrowserRouter>
+    </UsuarioProvider>
   </StrictMode>,
 )
