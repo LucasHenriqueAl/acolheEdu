@@ -18,6 +18,7 @@ import { ApoioPsicologico } from './pages/ApoioPsicologico.tsx'
 import { Perfil } from './pages/Perfil.tsx'
 import { AgendaAtendimento } from './pages/AgendaAtendimento.tsx'
 import { BemEstar } from './pages/BemEstar.tsx'
+import { Denuncias } from './pages/Denuncias.tsx'
 
 import { UsuarioProvider } from './Context/usuarioContext'
 
@@ -39,6 +40,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/apoio_psicologico" element={<ApoioPsicologico/>} />
           <Route path="/agenda" element={<AgendaAtendimento />} />
           <Route path="/bem_estar" element={<BemEstar />} />
+          <Route path="/denuncia" element={<Denuncias />} />
         </Routes>
       </BrowserRouter>
     </UsuarioProvider>

@@ -48,7 +48,7 @@ export default function MenuVertical() {
 
         <li>
           <button
-            onClick={() => navigate('/denuncias')}
+            onClick={() => navigate('/denuncia')}
             className="block rounded-lg px-4 py-3 text-sm font-medium text-gray-600 hover:bg-purple-50 hover:text-purple-700"
           >
             Denúncias
