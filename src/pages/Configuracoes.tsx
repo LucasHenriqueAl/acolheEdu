@@ -20,81 +20,165 @@ export function Configuracoes() {
 
           <div className="space-y-5">
 
-            {/* Alterar Nome */}
+            {/* Notificações */}
             <div className="rounded-2xl bg-white p-6 shadow-md">
 
               <h2 className="mb-4 text-2xl font-bold text-gray-800">
-                Alterar nome do usuário
+                Notificações
               </h2>
 
-              <input
-                type="text"
-                placeholder="Digite seu novo nome"
-                className="w-full rounded-xl border border-gray-300 p-3 outline-none focus:border-purple-500"
-              />
+              <div className="space-y-4">
 
-            </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700">
+                    Receber notificações
+                  </span>
 
-            {/* Alterar Senha */}
-            <div className="rounded-2xl bg-white p-6 shadow-md">
+                  <Toggle id="notificacoes" />
+                </div>
 
-              <h2 className="mb-4 text-2xl font-bold text-gray-800">
-                Alterar senha
-              </h2>
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700">
+                    Lembretes do Diário Emocional
+                  </span>
 
-              <div className="space-y-3">
+                  <Toggle id="lembretes" />
+                </div>
 
-                <input
-                  type="password"
-                  placeholder="Nova senha"
-                  className="w-full rounded-xl border border-gray-300 p-3 outline-none focus:border-purple-500"
-                />
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700">
+                    Avisos da psicóloga escolar
+                  </span>
 
-                <input
-                  type="password"
-                  placeholder="Confirmar nova senha"
-                  className="w-full rounded-xl border border-gray-300 p-3 outline-none focus:border-purple-500"
-                />
+                  <Toggle id="avisos" />
+                </div>
 
               </div>
 
             </div>
 
-            {/* Notificações */}
-            <div className="flex items-center justify-between rounded-2xl bg-white p-6 shadow-md">
+            {/* Aparência */}
+            <div className="rounded-2xl bg-white p-6 shadow-md">
 
-              <span className="text-lg font-medium text-gray-700">
-                Ativar notificações
-              </span>
+              <h2 className="mb-4 text-2xl font-bold text-gray-800">
+                Aparência
+              </h2>
 
-              <Toggle id="notificacoes" />
+              <div className="space-y-4">
+
+                <div>
+                  <label className="mb-2 block font-medium text-gray-700">
+                    Tema
+                  </label>
+
+                  <select className="w-full rounded-xl border border-gray-300 p-3 outline-none focus:border-purple-500">
+                    <option>Tema Claro</option>
+                    <option>Tema Escuro</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="mb-2 block font-medium text-gray-700">
+                    Tamanho da fonte
+                  </label>
+
+                  <select className="w-full rounded-xl border border-gray-300 p-3 outline-none focus:border-purple-500">
+                    <option>Pequena</option>
+                    <option>Média</option>
+                    <option>Grande</option>
+                  </select>
+                </div>
+
+              </div>
 
             </div>
 
             {/* Privacidade */}
             <div className="rounded-2xl bg-white p-6 shadow-md">
 
-              <a
-                href="/privacidade"
-                className="text-xl font-bold text-purple-700 hover:underline"
-              >
-                Privacidade da conta
-              </a>
+              <h2 className="mb-4 text-2xl font-bold text-gray-800">
+                Privacidade
+              </h2>
 
-              <p className="mt-2 text-gray-600">
-                Gerencie a visualização das suas informações e dados.
-              </p>
+              <div className="space-y-4">
+
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700">
+                    Mostrar nome completo
+                  </span>
+
+                  <Toggle id="nomeCompleto" />
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700">
+                    Permitir contato da psicóloga
+                  </span>
+
+                  <Toggle id="contatoPsicologa" />
+                </div>
+
+              </div>
 
             </div>
 
-            {/* Sair da Conta */}
+            {/* Acessibilidade */}
             <div className="rounded-2xl bg-white p-6 shadow-md">
 
-              <button
-                className="rounded-xl bg-red-500 px-6 py-3 font-semibold text-white transition hover:bg-red-600"
-              >
-                Sair da conta
-              </button>
+              <h2 className="mb-4 text-2xl font-bold text-gray-800">
+                Acessibilidade
+              </h2>
+
+              <div className="space-y-4">
+
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700">
+                    Alto contraste
+                  </span>
+
+                  <Toggle id="contraste" />
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700">
+                    Reduzir animações
+                  </span>
+
+                  <Toggle id="animacoes" />
+                </div>
+
+              </div>
+
+            </div>
+
+            {/* Sistema */}
+            <div className="rounded-2xl bg-white p-6 shadow-md">
+
+              <h2 className="mb-4 text-2xl font-bold text-gray-800">
+                Sistema
+              </h2>
+
+              <div className="space-y-2 text-gray-700">
+
+                <p>
+                  Versão: <strong>1.0.0</strong>
+                </p>
+
+                <a
+                  href="/sobre_nos"
+                  className="block text-purple-700 hover:underline"
+                >
+                  Sobre o AcolheEdu
+                </a>
+
+                <a
+                  href="/ajuda"
+                  className="block text-purple-700 hover:underline"
+                >
+                  Central de Ajuda
+                </a>
+
+              </div>
 
             </div>
 
@@ -103,6 +187,7 @@ export function Configuracoes() {
         </main>
 
       </div>
+
       <Footer />
     </>
   )
