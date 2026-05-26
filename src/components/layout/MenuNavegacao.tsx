@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Bell } from 'lucide-react'
+import AvatarUsuario from '../UI/AvatarIcon'
 
 export default function MenuNavegacao() {
   const navigate = useNavigate()
@@ -127,6 +128,8 @@ export default function MenuNavegacao() {
           </svg>
 
         </button>
+
+        <AvatarUsuario nome="Lucas" />
 
         </div>
 
