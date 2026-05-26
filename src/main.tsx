@@ -17,6 +17,7 @@ import { DiarioEmocional } from './pages/DiarioEmocional.tsx'
 import { ApoioPsicologico } from './pages/ApoioPsicologico.tsx'
 import { Perfil } from './pages/Perfil.tsx'
 import { AgendaAtendimento } from './pages/AgendaAtendimento.tsx'
+import { BemEstar } from './pages/BemEstar.tsx'
 
 import { UsuarioProvider } from './Context/usuarioContext'
 
@@ -37,6 +38,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/diario_emocional" element={<DiarioEmocional/> } />
           <Route path="/apoio_psicologico" element={<ApoioPsicologico/>} />
           <Route path="/agenda" element={<AgendaAtendimento />} />
+          <Route path="/bem_estar" element={<BemEstar />} />
         </Routes>
       </BrowserRouter>
     </UsuarioProvider>
