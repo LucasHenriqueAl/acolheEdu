@@ -23,7 +23,7 @@ export function AtendimentoMulher() {
               Atendimento à Mulher
             </h1>
 
-            <p className="mx-auto max-w-4xl text-xl text-gray-700">
+            <p className="mx-auto max-w-4xl text-2xl font-medium leading-relaxed text-gray-700">
               Este espaço foi criado para acolher, orientar e apoiar
               estudantes mulheres em situações que afetem seu bem-estar,
               segurança ou desenvolvimento dentro do ambiente escolar.

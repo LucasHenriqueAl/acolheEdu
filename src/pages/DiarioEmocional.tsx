@@ -21,7 +21,7 @@ export function DiarioEmocional() {
               Diário Emocional
             </h1>
 
-            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-700">
+            <p className="mx-auto max-w-4xl text-2xl font-medium leading-relaxed text-gray-700">
               Escreva sobre seus sentimentos, emoções e experiências do dia.
               Esse espaço foi criado para ajudar no seu bem-estar emocional.
             </p> 

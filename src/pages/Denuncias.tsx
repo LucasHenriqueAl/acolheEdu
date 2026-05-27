@@ -29,7 +29,7 @@ export function Denuncias() {
               Canal de Denúncias
             </h1>
 
-            <p className="mx-auto max-w-4xl text-lg text-gray-700">
+            <p className="mx-auto max-w-4xl text-2xl font-medium leading-relaxed text-gray-700">
               Este espaço foi criado para que estudantes possam relatar
               situações de bullying, violência emocional ou qualquer
               comportamento que prejudique o bem-estar dentro da escola.
