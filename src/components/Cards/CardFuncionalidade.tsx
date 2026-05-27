@@ -20,6 +20,7 @@ export default function CardsFuncionalidade() {
           <Card
             titulo="Diário Emocional"
             descricao="Registre emoções, sentimentos e experiências do seu dia."
+            rota="/diario_emocional"
           >
             <svg
               fill="none"
@@ -38,6 +39,7 @@ export default function CardsFuncionalidade() {
           <Card
             titulo="Bem-estar"
             descricao="Responda testes rápidos e acompanhe seu bem-estar emocional."
+            rota="/bem_estar"
           >
             <svg
               fill="none"
@@ -59,6 +61,7 @@ export default function CardsFuncionalidade() {
           <Card
             titulo="Conversar"
             descricao="Converse anonimamente com a psicóloga escolar."
+            rota="/conversar"
           >
             <svg
               fill="none"
@@ -77,6 +80,7 @@ export default function CardsFuncionalidade() {
           <Card
             titulo="Denúncias"
             descricao="Denuncie casos de bullying e violência emocional."
+            rota="/denuncia"
           >
             <svg
               fill="none"
@@ -97,6 +101,7 @@ export default function CardsFuncionalidade() {
           <Card
             titulo="Atendimento à Mulher"
             descricao="Canal de apoio e acolhimento para estudantes mulheres."
+            rota="/atendimento_mulher"
           >
             <svg
               fill="none"
@@ -115,6 +120,7 @@ export default function CardsFuncionalidade() {
           <Card
             titulo="Apoio Psicológico"
             descricao="Agende atendimentos e receba apoio especializado."
+            rota="/apoio_psicologico"
           >
             <svg
               fill="none"
