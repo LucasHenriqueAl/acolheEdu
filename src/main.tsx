@@ -19,6 +19,7 @@ import { Perfil } from './pages/Perfil.tsx'
 import { AgendaAtendimento } from './pages/AgendaAtendimento.tsx'
 import { BemEstar } from './pages/BemEstar.tsx'
 import { Denuncias } from './pages/Denuncias.tsx'
+import { AtendimentoMulher } from './pages/AtendimentoMulher.tsx'
 
 import { UsuarioProvider } from './Context/usuarioContext'
 
@@ -41,6 +42,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/agenda" element={<AgendaAtendimento />} />
           <Route path="/bem_estar" element={<BemEstar />} />
           <Route path="/denuncia" element={<Denuncias />} />
+          <Route path="/atendimento_mulher" element={<AtendimentoMulher />} />
         </Routes>
       </BrowserRouter>
     </UsuarioProvider>

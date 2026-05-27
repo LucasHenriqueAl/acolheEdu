@@ -57,7 +57,7 @@ export default function MenuVertical() {
 
         <li>
           <button
-            onClick={() => navigate('/atendimento_a_mulher')}
+            onClick={() => navigate('/atendimento_mulher')}
             className="block rounded-lg px-4 py-3 text-sm font-medium text-gray-600 hover:bg-purple-50 hover:text-purple-700"
           >
             Atendimento à mulher
