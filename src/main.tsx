@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from 'react-router-dom'
@@ -29,7 +29,7 @@ import './index.css'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <UsuarioProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/inicio" element={<TelaInicial />} />
@@ -46,7 +46,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/atendimento_mulher" element={<AtendimentoMulher />} />
           <Route path="/conversar" element={<Conversar />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </UsuarioProvider>
   </StrictMode>,
 )
