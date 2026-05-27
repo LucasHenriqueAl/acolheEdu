@@ -12,7 +12,7 @@
     "deploy": "gh-pages -d dist"
   },
 
-  "homepage": "https://LucasHenriqueAl.github.io/acolheEdu",
+  "homepage": "https://lucashenriqueal.github.io/acolheEdu",
 
   "dependencies": {
     "@emotion/react": "^11.14.0",
