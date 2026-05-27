@@ -18,6 +18,21 @@ export function Conversar() {
             Conversar
           </h1>
 
+          <div className="mb-8 rounded-2xl bg-purple-50 p-6">
+
+                <h2 className="mb-2 text-xl font-bold text-purple-700">
+                    Conversa Anônima 
+                </h2>
+
+                <p className="text-gray-700">
+                    Este espaço foi criado para que você possa conversar de forma
+                    segura e anônima. Nenhuma informação pessoal será exibida durante
+                    a conversa. Sinta-se à vontade para compartilhar sentimentos,
+                    dúvidas ou situações que estejam afetando seu bem-estar.
+                </p>
+
+           </div>
+
           <Chat />
 
         </main>
