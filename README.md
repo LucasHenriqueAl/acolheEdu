@@ -161,4 +161,6 @@ npm run build
 
 ## 📄 Licença
 
-Este projeto possui finalidade educacional e acadêmica.
+Este projeto está licenciado sob a licença MIT.
+
+Consulte o arquivo LICENSE para mais informações.
