@@ -20,6 +20,7 @@ import { AgendaAtendimento } from './pages/AgendaAtendimento.tsx'
 import { BemEstar } from './pages/BemEstar.tsx'
 import { Denuncias } from './pages/Denuncias.tsx'
 import { AtendimentoMulher } from './pages/AtendimentoMulher.tsx'
+import { Conversar } from './pages/Conversa.tsx'
 
 import { UsuarioProvider } from './Context/usuarioContext'
 
@@ -43,6 +44,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/bem_estar" element={<BemEstar />} />
           <Route path="/denuncia" element={<Denuncias />} />
           <Route path="/atendimento_mulher" element={<AtendimentoMulher />} />
+          <Route path="/conversar" element={<Conversar />} />
         </Routes>
       </BrowserRouter>
     </UsuarioProvider>
