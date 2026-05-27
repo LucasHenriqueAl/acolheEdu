@@ -27,7 +27,7 @@ export default function MensagemApoio() {
       <div className="mt-10 border-t border-purple-200 pt-8 text-center">
 
         <h3 className="mb-4 text-2xl font-bold text-purple-700">
-          Você não está sozinho 💜
+          Toda história merece ser ouvida 💜
         </h3>
 
         <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-700">
