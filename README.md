@@ -92,6 +92,9 @@ Preferências da plataforma, notificações e configurações gerais.
 
 ```text
 src/
+├── assets
+│   ├── acolheEdu-background.png
+│   └── acolheEdu-logo.png
 ├── components/
 │   ├── Cards/
 │   │   ├── Card.tsx
@@ -117,6 +120,7 @@ src/
 │   ├── ApoioPsicologico.tsx
 │   ├── AtendimentoMulher.tsx
 │   ├── BemEstar.tsx
+│   ├── BoasVindas.tsx
 │   ├── Configurações.tsx
 │   ├── Contato.tsx
 │   ├── Conversa.tsx
