@@ -111,7 +111,7 @@ export function Perfil() {
             <div className="rounded-2xl bg-white p-6 shadow-md">
 
               <a
-                href="/privacidade"
+                href="#/perfil"
                 className="text-xl font-bold text-purple-700 hover:underline"
               >
                 Privacidade da conta

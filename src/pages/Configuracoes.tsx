@@ -165,14 +165,14 @@ export function Configuracoes() {
                 </p>
 
                 <a
-                  href="/sobre_nos"
+                  href="#/sobre_nos"
                   className="block text-purple-700 hover:underline"
                 >
                   Sobre o AcolheEdu
                 </a>
 
                 <a
-                  href="/ajuda"
+                  href="#/ajuda"
                   className="block text-purple-700 hover:underline"
                 >
                   Central de Ajuda

@@ -50,50 +50,56 @@ export default function SobreNosComponente() {
           <nav className="-mb-1 flex flex-wrap list-none">
 
             <li className="mb-2 w-1/2 lg:w-1/3">
-              <a className="text-gray-600 hover:text-purple-700">
+              <a 
+                className="text-gray-600 hover:text-purple-700"
+                href="#/diario_emocional"
+                >
                 Diário Emocional
               </a>
             </li>
 
             <li className="mb-2 w-1/2 lg:w-1/3">
-              <a className="text-gray-600 hover:text-purple-700">
+              <a 
+                className="text-gray-600 hover:text-purple-700"
+                href="#/bem_estar"
+                >
                 Bem-estar
               </a>
             </li>
 
             <li className="mb-2 w-1/2 lg:w-1/3">
-              <a className="text-gray-600 hover:text-purple-700">
+              <a 
+               className="text-gray-600 hover:text-purple-700"
+               href="#/conversar"
+              >
                 Conversar
               </a>
             </li>
 
             <li className="mb-2 w-1/2 lg:w-1/3">
-              <a className="text-gray-600 hover:text-purple-700">
+              <a 
+                className="text-gray-600 hover:text-purple-700"
+                href="#/denuncia"
+                >
                 Denúncias
               </a>
             </li>
 
             <li className="mb-2 w-1/2 lg:w-1/3">
-              <a className="text-gray-600 hover:text-purple-700">
+              <a 
+                className="text-gray-600 hover:text-purple-700"
+                href="#/apoio_psicologico"
+                >
                 Apoio Psicológico
               </a>
             </li>
 
             <li className="mb-2 w-1/2 lg:w-1/3">
-              <a className="text-gray-600 hover:text-purple-700">
+              <a 
+                className="text-gray-600 hover:text-purple-700"
+                href="#/atendimento_mulher"
+                >
                 Atendimento à Mulher
-              </a>
-            </li>
-
-            <li className="mb-2 w-1/2 lg:w-1/3">
-              <a className="text-gray-600 hover:text-purple-700">
-                Escuta Ativa
-              </a>
-            </li>
-
-            <li className="mb-2 w-1/2 lg:w-1/3">
-              <a className="text-gray-600 hover:text-purple-700">
-                Ambiente Seguro
               </a>
             </li>
 
