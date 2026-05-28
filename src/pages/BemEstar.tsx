@@ -7,7 +7,7 @@ import BarraProgresso from '../components/UI/BarraProgresso'
 
 export function BemEstar() {
   const perguntas = [
-    'Você está se sentindos bem hoje?',
+    'Você está se sentindo bem hoje?',
     'Você conseguiu dormir bem esta noite?',
     'Você se sentiu motivado para realizar suas atividades?',
     'Você teve alguém com quem conversar quando precisou?'
