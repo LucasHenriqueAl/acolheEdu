@@ -12,7 +12,7 @@ export function Login() {
       style={{ backgroundImage: `url(${background})` }}
     >
 
-    <div className="absolute inset-0 bg-white/40 backdrop-blur-[2px]"></div>
+    <div className="absolute inset-0 bg-white/10 backdrop-blur-[2px]"></div>
       <div className="relative z-10 mx-auto flex min-h-screen items-center justify-center px-4">
         <div className="w-full max-w-md">
 
