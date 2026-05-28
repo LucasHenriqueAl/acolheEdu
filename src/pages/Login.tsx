@@ -1,6 +1,7 @@
 import Button from '../components/UI/button_seta'
 import { useNavigate } from 'react-router-dom'
 import background from '../assets/acolheEdu-background.png'
+import logo from '../assets/acolheEdu-logo.png'
 
 export function Login() {
   
@@ -16,9 +17,18 @@ export function Login() {
       <div className="relative z-10 mx-auto flex min-h-screen items-center justify-center px-4">
         <div className="w-full max-w-md">
 
-          <h1 className="mb-3 text-center text-6xl font-extrabold tracking-tight text-purple-700">
-            AcolheEdu
-          </h1>
+         <div className="mb-3 flex items-center justify-center gap-3">
+            <img
+              src={logo}
+              alt="Logo AcolheEdu"
+              className="-ml-5 h-16 w-16 object-contain"
+            />
+
+            <h1 className="-ml-3 text-center text-6xl font-extrabold tracking-tight text-purple-700">
+              AcolheEdu
+            </h1>
+         </div>
+
 
           <p className="mb-8 text-center text-lg text-purple/90">
             Plataforma de apoio emocional para estudantes
