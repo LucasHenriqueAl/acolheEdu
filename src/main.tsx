@@ -7,7 +7,8 @@ import {
   Route
 } from 'react-router-dom'
 
-import App from './App.tsx'
+import { Login } from './pages/Login.tsx'
+import { BoasVindas } from './pages/BoasVindas.tsx'
 import { TelaInicial } from './pages/TelaInicial.tsx'
 import { Contato } from './pages/Contato.tsx'
 import { SobreNos } from './pages/SobreNos.tsx'
@@ -31,7 +32,8 @@ createRoot(document.getElementById('root')!).render(
     <UsuarioProvider>
       <HashRouter>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<BoasVindas />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/inicio" element={<TelaInicial />} />
           <Route path="/perfil" element={<Perfil />} /> 
           <Route path="/contato" element={<Contato />} />

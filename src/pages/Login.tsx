@@ -66,7 +66,7 @@ export function Login() {
              <p className="text-center text-sm text-gray-600">
               Não possui conta?{' '}
               <a
-                 href="/cadastro"
+                 href="/"
                   className="font-medium text-purple-800 hover:underline"
               >
                 criar conta
