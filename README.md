@@ -136,6 +136,13 @@ src/
 ```
 
 ---
+## Deploy
+
+Acesse a plataforma:
+
+https://lucashenriqueal.github.io/acolheEdu/
+
+---
 
 ## 🚀 Como executar o projeto
 
