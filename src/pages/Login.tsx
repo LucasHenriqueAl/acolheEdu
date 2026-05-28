@@ -1,20 +1,30 @@
 import Button from '../components/UI/button_seta'
 import { useNavigate } from 'react-router-dom'
+import background from '../assets/acolheEdu-background.png'
 
 export function Login() {
   
   const navigate = useNavigate()
 
   return (
-    <section className="bg-white min-h-screen ">
-      <div className="mx-auto max-w-screen-xl px-4 py-16">
-        <div className="mx-auto max-w-lg">
+    <section 
+      className="relative min-h-screen bg-cover bg-center"
+      style={{ backgroundImage: `url(${background})` }}
+    >
 
-          <h1 className="mb-8 text-center text-5xl font-extrabold tracking-tight text-purple-700">
+    <div className="absolute inset-0 bg-white/40 backdrop-blur-[2px]"></div>
+      <div className="relative z-10 mx-auto flex min-h-screen items-center justify-center px-4">
+        <div className="w-full max-w-md">
+
+          <h1 className="mb-3 text-center text-6xl font-extrabold tracking-tight text-purple-700">
             AcolheEdu
           </h1>
 
-          <form className="mt-6 space-y-4 rounded-lg p-6 shadow-lg">
+          <p className="mb-8 text-center text-lg text-purple/90">
+            Plataforma de apoio emocional para estudantes
+          </p>
+
+          <form className="mt-6 space-y-4 rounded-2xl bg-white/90 p-8 shadow-2xl backdrop-blur-sm">
 
             <div>
               <label className="sr-only">Email</label>
