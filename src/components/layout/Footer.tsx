@@ -1,3 +1,5 @@
+import logo from '../../assets/acolheEdu-logo.png'
+
 export default function Footer() {
   return (
     <footer className="body-font text-gray-600">
@@ -5,18 +7,12 @@ export default function Footer() {
 
         {/* Logo */}
         <div className="flex items-center justify-center font-medium text-purple-700 md:justify-start">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="h-10 w-10 rounded-full bg-purple-600 p-2 text-white"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-          </svg>
+          <img
+            src={logo}
+            alt="Logo AcolheEdu"
+            className="h-12 w-12 object-contain"
+          />
+
 
           <span className="ml-3 text-xl font-bold">
             AcolheEdu

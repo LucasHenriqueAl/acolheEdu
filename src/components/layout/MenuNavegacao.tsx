@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { Bell } from 'lucide-react'
 import AvatarUsuario from '../UI/AvatarIcon'
 import { useUsuario } from '../../Context/usuarioContext'
+import logo from '../../assets/acolheEdu-logo.png'
 
 export default function MenuNavegacao() {
   const navigate = useNavigate()
@@ -18,18 +19,11 @@ export default function MenuNavegacao() {
           onClick={() => navigate('/inicio')}
           className="mb-4 flex items-center font-medium text-purple-700 md:mb-0">
 
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="h-10 w-10 rounded-full bg-purple-600 p-2 text-white"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-          </svg>
+          <img
+            src={logo}
+            alt="Logo AcolheEdu"
+            className="h-10 w-12 object-contain"
+          />
 
           <span className="ml-3 text-2xl font-bold">
             AcolheEdu
