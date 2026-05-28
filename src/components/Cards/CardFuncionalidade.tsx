@@ -4,7 +4,7 @@ export default function CardsFuncionalidade() {
   return (
     <section className="body-font text-gray-600">
 
-      <div className="container mx-auto px-5 py-20">
+      <div className="container mx-auto px-5 py-10">
 
         <div className="mb-16 flex w-full flex-col items-center text-center">
 
